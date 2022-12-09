@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		366ED0531EDF1DD457931AEC /* SunPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366EDD676832D8B967BD5647 /* SunPosition.swift */; };
+		366ED2F9AC4C222249E5A1DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366ED3FB4100FFB399DD6DB8 /* Preview Assets.xcassets */; };
+		366ED39574BC3C4E7FD66A71 /* IttokiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED78285CBE1DDD089A8C2 /* IttokiApp.swift */; };
+		366ED46903862BF0825E5813 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366EDF76CE91435437D6CEA2 /* LocationViewModel.swift */; };
+		366ED4F70C4EBC45948EA168 /* EdoTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED9FA9D2563A88C5532F4 /* EdoTime.swift */; };
+		366ED5567C3377229C15EEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366ED86FA76A19FBC83489BA /* Assets.xcassets */; };
+		366ED7B1ABF18B82830BBB9A /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED17E142F833AD5AA28A8 /* DateHelper.swift */; };
+		366EDAEDE39D0AC8AEA15FB7 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED0B0CA1F45B2BA6F0DBF /* CircularProgressView.swift */; };
+		366EDD102DF98D51ED20CC76 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED25A2F6603BB6C12D0CC /* ColorHelper.swift */; };
+		366EDFE15DBA079278228C58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED7155B1DA9F50BD31DE7 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		366ED0B0CA1F45B2BA6F0DBF /* CircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		366ED0D9A48B30B82878694E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		366ED17E142F833AD5AA28A8 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		366ED25A2F6603BB6C12D0CC /* ColorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		366ED3FB4100FFB399DD6DB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		366ED6130190A08E87667E14 /* Ittoki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ittoki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		366ED7155B1DA9F50BD31DE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		366ED78285CBE1DDD089A8C2 /* IttokiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IttokiApp.swift; sourceTree = "<group>"; };
+		366ED86FA76A19FBC83489BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		366ED8751650716DCF858308 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		366ED8D713011CB02EC9CE2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		366ED9FA9D2563A88C5532F4 /* EdoTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdoTime.swift; sourceTree = "<group>"; };
+		366EDA2C91F613D7D20E2A7B /* IttokiWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IttokiWatchApp.swift; sourceTree = "<group>"; };
+		366EDD676832D8B967BD5647 /* SunPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunPosition.swift; sourceTree = "<group>"; };
+		366EDF76CE91435437D6CEA2 /* LocationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		366ED331485D8F8A11CD03E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		366ED2D5C5511523C0771E5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				366ED3FB4100FFB399DD6DB8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		366ED36995FE5FF63117A99C = {
+			isa = PBXGroup;
+			children = (
+				366ED7E94D03111985793177 /* Products */,
+				366ED5F7A461058DE3035688 /* Ittoki */,
+			);
+			sourceTree = "<group>";
+		};
+		366ED5F7A461058DE3035688 /* Ittoki */ = {
+			isa = PBXGroup;
+			children = (
+				366ED86FA76A19FBC83489BA /* Assets.xcassets */,
+				366ED2D5C5511523C0771E5E /* Preview Content */,
+				366ED78285CBE1DDD089A8C2 /* IttokiApp.swift */,
+				366ED7155B1DA9F50BD31DE7 /* ContentView.swift */,
+				366EDD676832D8B967BD5647 /* SunPosition.swift */,
+				366EDF76CE91435437D6CEA2 /* LocationViewModel.swift */,
+				366ED17E142F833AD5AA28A8 /* DateHelper.swift */,
+				366ED0B0CA1F45B2BA6F0DBF /* CircularProgressView.swift */,
+				366ED9FA9D2563A88C5532F4 /* EdoTime.swift */,
+				366ED25A2F6603BB6C12D0CC /* ColorHelper.swift */,
+			);
+			path = Ittoki;
+			sourceTree = "<group>";
+		};
+		366ED7E94D03111985793177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				366ED6130190A08E87667E14 /* Ittoki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		366EDEBC29EEBAA8954E700C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				366ED8D713011CB02EC9CE2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		366ED2B0B1C5E499C54D5E57 /* Ittoki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366EDB832DC3F5B148EAE1DD /* Build configuration list for PBXNativeTarget "Ittoki" */;
+			buildPhases = (
+				366EDC31C5526D359CC3AE4D /* Sources */,
+				366ED331485D8F8A11CD03E0 /* Frameworks */,
+				366ED2DFF3E67BEE000BE59C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ittoki;
+			productName = Ittoki;
+			productReference = 366ED6130190A08E87667E14 /* Ittoki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		366EDE63AA6B0412CCF429FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = dayspringpartners.com;
+				ORGANIZATIONNAME = "Dayspring Partners";
+				TargetAttributes = {
+					366ED2B0B1C5E499C54D5E57 = {
+						DevelopmentTeam = 89KN7QH8WC;
+					};
+				};
+			};
+			buildConfigurationList = 366ED06D452AF89F44F765B6 /* Build configuration list for PBXProject "Ittoki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 366ED36995FE5FF63117A99C;
+			productRefGroup = 366ED7E94D03111985793177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				366ED2B0B1C5E499C54D5E57 /* Ittoki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		366ED2DFF3E67BEE000BE59C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366ED5567C3377229C15EEB3 /* Assets.xcassets in Resources */,
+				366ED2F9AC4C222249E5A1DC /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		366EDC31C5526D359CC3AE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366ED39574BC3C4E7FD66A71 /* IttokiApp.swift in Sources */,
+				366EDFE15DBA079278228C58 /* ContentView.swift in Sources */,
+				366ED0531EDF1DD457931AEC /* SunPosition.swift in Sources */,
+				366ED46903862BF0825E5813 /* LocationViewModel.swift in Sources */,
+				366ED7B1ABF18B82830BBB9A /* DateHelper.swift in Sources */,
+				366EDAEDE39D0AC8AEA15FB7 /* CircularProgressView.swift in Sources */,
+				366ED4F70C4EBC45948EA168 /* EdoTime.swift in Sources */,
+				366EDD102DF98D51ED20CC76 /* ColorHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		366ED16449521B5A76E00E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We'll use this find sunrise/sunset times.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		366ED1A622F8E9B22A680CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ittoki/Preview Content\"";
+				DEVELOPMENT_TEAM = 89KN7QH8WC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dayspringpartners.com.Ittoki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		366ED701F67315B7303FBF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ittoki/Preview Content\"";
+				DEVELOPMENT_TEAM = 89KN7QH8WC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dayspringpartners.com.Ittoki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		366EDCA6B0167E4135656F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We'll use this find sunrise/sunset times.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		366ED06D452AF89F44F765B6 /* Build configuration list for PBXProject "Ittoki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366EDCA6B0167E4135656F65 /* Debug */,
+				366ED16449521B5A76E00E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		366EDB832DC3F5B148EAE1DD /* Build configuration list for PBXNativeTarget "Ittoki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366ED701F67315B7303FBF5F /* Debug */,
+				366ED1A622F8E9B22A680CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 366EDE63AA6B0412CCF429FF /* Project object */;
+}
