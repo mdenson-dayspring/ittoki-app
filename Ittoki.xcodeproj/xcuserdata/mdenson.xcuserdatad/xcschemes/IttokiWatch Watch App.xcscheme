@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "366ED2B0B1C5E499C54D5E57"
-               BuildableName = "Ittoki.app"
-               BlueprintName = "Ittoki"
+               BlueprintIdentifier = "841CB1CE294403B10068C448"
+               BuildableName = "IttokiWatch Watch App.app"
+               BlueprintName = "IttokiWatch Watch App"
                ReferencedContainer = "container:Ittoki.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "366ED2B0B1C5E499C54D5E57"
-            BuildableName = "Ittoki.app"
-            BlueprintName = "Ittoki"
+            BlueprintIdentifier = "841CB1CE294403B10068C448"
+            BuildableName = "IttokiWatch Watch App.app"
+            BlueprintName = "IttokiWatch Watch App"
             ReferencedContainer = "container:Ittoki.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

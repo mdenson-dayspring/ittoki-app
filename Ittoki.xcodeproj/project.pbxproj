@@ -8,20 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		366ED0531EDF1DD457931AEC /* SunPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366EDD676832D8B967BD5647 /* SunPosition.swift */; };
+		366ED0E49228CE421882F681 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED17E142F833AD5AA28A8 /* DateHelper.swift */; };
 		366ED2F9AC4C222249E5A1DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366ED3FB4100FFB399DD6DB8 /* Preview Assets.xcassets */; };
 		366ED39574BC3C4E7FD66A71 /* IttokiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED78285CBE1DDD089A8C2 /* IttokiApp.swift */; };
-		366ED46903862BF0825E5813 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366EDF76CE91435437D6CEA2 /* LocationViewModel.swift */; };
+		366ED46903862BF0825E5813 /* SolarTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366EDF76CE91435437D6CEA2 /* SolarTimeViewModel.swift */; };
 		366ED4F70C4EBC45948EA168 /* EdoTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED9FA9D2563A88C5532F4 /* EdoTime.swift */; };
 		366ED5567C3377229C15EEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366ED86FA76A19FBC83489BA /* Assets.xcassets */; };
 		366ED7B1ABF18B82830BBB9A /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED17E142F833AD5AA28A8 /* DateHelper.swift */; };
+		366ED83876FA219A0D989DF5 /* SunPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366EDD676832D8B967BD5647 /* SunPosition.swift */; };
+		366ED9E1E72A408A90D938FF /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED0B0CA1F45B2BA6F0DBF /* CircularProgressView.swift */; };
 		366EDAEDE39D0AC8AEA15FB7 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED0B0CA1F45B2BA6F0DBF /* CircularProgressView.swift */; };
+		366EDB375C9F8A11108103E7 /* EdoTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED9FA9D2563A88C5532F4 /* EdoTime.swift */; };
+		366EDC0C9663A4EED65E5A72 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED25A2F6603BB6C12D0CC /* ColorHelper.swift */; };
+		366EDC475DE4CE54092FADEE /* SolarTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366EDF76CE91435437D6CEA2 /* SolarTimeViewModel.swift */; };
 		366EDD102DF98D51ED20CC76 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED25A2F6603BB6C12D0CC /* ColorHelper.swift */; };
 		366EDFE15DBA079278228C58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ED7155B1DA9F50BD31DE7 /* ContentView.swift */; };
+		841CB1D0294403B10068C448 /* IttokiWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 841CB1CF294403B10068C448 /* IttokiWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		841CB1D5294403B10068C448 /* IttokiWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CB1D4294403B10068C448 /* IttokiWatchApp.swift */; };
+		841CB1D7294403B10068C448 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841CB1D6294403B10068C448 /* ContentView.swift */; };
+		841CB1D9294403B30068C448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841CB1D8294403B30068C448 /* Assets.xcassets */; };
+		841CB1DC294403B30068C448 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841CB1DB294403B30068C448 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841CB1D1294403B10068C448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 366EDE63AA6B0412CCF429FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841CB1CE294403B10068C448;
+			remoteInfo = "IttokiWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		841CB1DF294403B30068C448 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				841CB1D0294403B10068C448 /* IttokiWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		366ED0B0CA1F45B2BA6F0DBF /* CircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
-		366ED0D9A48B30B82878694E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		366ED17E142F833AD5AA28A8 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 		366ED25A2F6603BB6C12D0CC /* ColorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
 		366ED3FB4100FFB399DD6DB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -29,16 +63,26 @@
 		366ED7155B1DA9F50BD31DE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		366ED78285CBE1DDD089A8C2 /* IttokiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IttokiApp.swift; sourceTree = "<group>"; };
 		366ED86FA76A19FBC83489BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		366ED8751650716DCF858308 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		366ED8D713011CB02EC9CE2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		366ED9FA9D2563A88C5532F4 /* EdoTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdoTime.swift; sourceTree = "<group>"; };
-		366EDA2C91F613D7D20E2A7B /* IttokiWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IttokiWatchApp.swift; sourceTree = "<group>"; };
 		366EDD676832D8B967BD5647 /* SunPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunPosition.swift; sourceTree = "<group>"; };
-		366EDF76CE91435437D6CEA2 /* LocationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		366EDF76CE91435437D6CEA2 /* SolarTimeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolarTimeViewModel.swift; sourceTree = "<group>"; };
+		841CB1CA294403B10068C448 /* IttokiWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IttokiWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841CB1CF294403B10068C448 /* IttokiWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IttokiWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841CB1D4294403B10068C448 /* IttokiWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IttokiWatchApp.swift; sourceTree = "<group>"; };
+		841CB1D6294403B10068C448 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		841CB1D8294403B30068C448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841CB1DB294403B30068C448 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		366ED331485D8F8A11CD03E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841CB1CC294403B10068C448 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,6 +103,7 @@
 		366ED36995FE5FF63117A99C = {
 			isa = PBXGroup;
 			children = (
+				841CB1D3294403B10068C448 /* IttokiWatch Watch App */,
 				366ED7E94D03111985793177 /* Products */,
 				366ED5F7A461058DE3035688 /* Ittoki */,
 			);
@@ -72,7 +117,7 @@
 				366ED78285CBE1DDD089A8C2 /* IttokiApp.swift */,
 				366ED7155B1DA9F50BD31DE7 /* ContentView.swift */,
 				366EDD676832D8B967BD5647 /* SunPosition.swift */,
-				366EDF76CE91435437D6CEA2 /* LocationViewModel.swift */,
+				366EDF76CE91435437D6CEA2 /* SolarTimeViewModel.swift */,
 				366ED17E142F833AD5AA28A8 /* DateHelper.swift */,
 				366ED0B0CA1F45B2BA6F0DBF /* CircularProgressView.swift */,
 				366ED9FA9D2563A88C5532F4 /* EdoTime.swift */,
@@ -85,14 +130,27 @@
 			isa = PBXGroup;
 			children = (
 				366ED6130190A08E87667E14 /* Ittoki.app */,
+				841CB1CA294403B10068C448 /* IttokiWatch.app */,
+				841CB1CF294403B10068C448 /* IttokiWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		366EDEBC29EEBAA8954E700C /* Preview Content */ = {
+		841CB1D3294403B10068C448 /* IttokiWatch Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				366ED8D713011CB02EC9CE2D /* Preview Assets.xcassets */,
+				841CB1D4294403B10068C448 /* IttokiWatchApp.swift */,
+				841CB1D6294403B10068C448 /* ContentView.swift */,
+				841CB1D8294403B30068C448 /* Assets.xcassets */,
+				841CB1DA294403B30068C448 /* Preview Content */,
+			);
+			path = "IttokiWatch Watch App";
+			sourceTree = "<group>";
+		};
+		841CB1DA294403B30068C448 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				841CB1DB294403B30068C448 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -117,6 +175,40 @@
 			productReference = 366ED6130190A08E87667E14 /* Ittoki.app */;
 			productType = "com.apple.product-type.application";
 		};
+		841CB1C9294403B10068C448 /* IttokiWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841CB1E3294403B30068C448 /* Build configuration list for PBXNativeTarget "IttokiWatch" */;
+			buildPhases = (
+				841CB1C8294403B10068C448 /* Resources */,
+				841CB1DF294403B30068C448 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841CB1D2294403B10068C448 /* PBXTargetDependency */,
+			);
+			name = IttokiWatch;
+			productName = IttokiWatch;
+			productReference = 841CB1CA294403B10068C448 /* IttokiWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		841CB1CE294403B10068C448 /* IttokiWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841CB1E2294403B30068C448 /* Build configuration list for PBXNativeTarget "IttokiWatch Watch App" */;
+			buildPhases = (
+				841CB1CB294403B10068C448 /* Sources */,
+				841CB1CC294403B10068C448 /* Frameworks */,
+				841CB1CD294403B10068C448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IttokiWatch Watch App";
+			productName = "IttokiWatch Watch App";
+			productReference = 841CB1CF294403B10068C448 /* IttokiWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -124,10 +216,22 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = dayspringpartners.com;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
 				ORGANIZATIONNAME = "Dayspring Partners";
 				TargetAttributes = {
 					366ED2B0B1C5E499C54D5E57 = {
 						DevelopmentTeam = 89KN7QH8WC;
+					};
+					841CB1C9294403B10068C448 = {
+						CreatedOnToolsVersion = 14.1;
+						DevelopmentTeam = 89KN7QH8WC;
+						ProvisioningStyle = Automatic;
+					};
+					841CB1CE294403B10068C448 = {
+						CreatedOnToolsVersion = 14.1;
+						DevelopmentTeam = 89KN7QH8WC;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -145,6 +249,8 @@
 			projectRoot = "";
 			targets = (
 				366ED2B0B1C5E499C54D5E57 /* Ittoki */,
+				841CB1C9294403B10068C448 /* IttokiWatch */,
+				841CB1CE294403B10068C448 /* IttokiWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -159,6 +265,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		841CB1C8294403B10068C448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841CB1CD294403B10068C448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841CB1DC294403B30068C448 /* Preview Assets.xcassets in Resources */,
+				841CB1D9294403B30068C448 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -169,7 +291,7 @@
 				366ED39574BC3C4E7FD66A71 /* IttokiApp.swift in Sources */,
 				366EDFE15DBA079278228C58 /* ContentView.swift in Sources */,
 				366ED0531EDF1DD457931AEC /* SunPosition.swift in Sources */,
-				366ED46903862BF0825E5813 /* LocationViewModel.swift in Sources */,
+				366ED46903862BF0825E5813 /* SolarTimeViewModel.swift in Sources */,
 				366ED7B1ABF18B82830BBB9A /* DateHelper.swift in Sources */,
 				366EDAEDE39D0AC8AEA15FB7 /* CircularProgressView.swift in Sources */,
 				366ED4F70C4EBC45948EA168 /* EdoTime.swift in Sources */,
@@ -177,13 +299,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		841CB1CB294403B10068C448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841CB1D7294403B10068C448 /* ContentView.swift in Sources */,
+				841CB1D5294403B10068C448 /* IttokiWatchApp.swift in Sources */,
+				366ED83876FA219A0D989DF5 /* SunPosition.swift in Sources */,
+				366EDB375C9F8A11108103E7 /* EdoTime.swift in Sources */,
+				366EDC475DE4CE54092FADEE /* SolarTimeViewModel.swift in Sources */,
+				366ED9E1E72A408A90D938FF /* CircularProgressView.swift in Sources */,
+				366EDC0C9663A4EED65E5A72 /* ColorHelper.swift in Sources */,
+				366ED0E49228CE421882F681 /* DateHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841CB1D2294403B10068C448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841CB1CE294403B10068C448 /* IttokiWatch Watch App */;
+			targetProxy = 841CB1D1294403B10068C448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		366ED16449521B5A76E00E02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -288,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -345,6 +492,92 @@
 			};
 			name = Debug;
 		};
+		841CB1DD294403B30068C448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89KN7QH8WC;
+				INFOPLIST_KEY_CFBundleDisplayName = IttokiWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayspringpartners.IttokiWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		841CB1DE294403B30068C448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89KN7QH8WC;
+				INFOPLIST_KEY_CFBundleDisplayName = IttokiWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayspringpartners.IttokiWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		841CB1E0294403B30068C448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IttokiWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 89KN7QH8WC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = IttokiWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayspringpartners.IttokiWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		841CB1E1294403B30068C448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IttokiWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 89KN7QH8WC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = IttokiWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayspringpartners.IttokiWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -362,6 +595,24 @@
 			buildConfigurations = (
 				366ED701F67315B7303FBF5F /* Debug */,
 				366ED1A622F8E9B22A680CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841CB1E2294403B30068C448 /* Build configuration list for PBXNativeTarget "IttokiWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841CB1E0294403B30068C448 /* Debug */,
+				841CB1E1294403B30068C448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841CB1E3294403B30068C448 /* Build configuration list for PBXNativeTarget "IttokiWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841CB1DD294403B30068C448 /* Debug */,
+				841CB1DE294403B30068C448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
